@@ -15,86 +15,86 @@ const scoreDiv = document.getElementById("scoreContainer");
 // create our questions
 let questions = [
     {
-        question : "which equation has no solution?",
+        question : "When must a fire control alignment test be conducted?",
         imgSrc : "img/html.png",
-        choiceA : "A)-8x+2=-8x-4 ",
-        choiceB : "B)12+5x=5x+12",
-        choiceC : "C)6x+9=6x+9",
-        choiceD : "D)15-x=-x+15",
-        correct : "A"
+        choiceA : "A)Once every 3 months if the cannon is fired ",
+        choiceB : "B)Once each year if the cannon is used for non-firing training",
+        choiceC : "C)As soon as possible after extensive use",
+        choiceD : "D)After traveling over extremely rough terrain",
+        correct : "B"
 
     },{
-        question : "what is the solution to : 7+ ²ˣ⁄₅ =13?",
+        question : "What does TLABSPAP stand for?",
         imgSrc : "img/css.png",
-        choiceA : "A)30",
-        choiceB : "B)15",
-        choiceC : "C)45",
+        choiceA : "A)rail, Lift, Aim, Bore, Secure, Prime, Activate, Protect",
+        choiceB : "B)Train, Load, Adjust, Brace, Set, Prepare, Aim, Position",
+        choiceC : "C)Target, Load, Align, Bore, Sight, Position, Aim, Proceed",
+        choiceD : "D)Trails, Lay, Aiming point identified, Boresight verified, Safe, Prefer checks performed, Ammunition prepared, Position improvement",
+        correct : "D"
+    },{
+        question : "What is the purpose of a comparison test of M140/M140A1 alignment device?",
+        imgSrc : "img/css.png",
+        choiceA : "A)It ensures that the devices are calibrated to the same standard",
+        choiceB : "B)It compares the effectiveness of different alignment devices",
+        choiceC : "C)It is performed to identify any device that has been bent or damaged due to accident or mishandling",
+        choiceD : "D)It verifies the precision of the device under different conditions",
+        correct : "C"
+      },{
+        question : "What is a Cook Off?",
+        imgSrc : "img/css.png",
+        choiceA : "A)When a meal is prepared using a field stove",
+        choiceB : "B)When the propellant can ignite itself by being in a hot tube",
+        choiceC : "C)When the engine of a vehicle overheats",
+        choiceD : "D)When ammunition is disposed of by burning",
+        correct : "B"
+      },{
+        question : "What is the minimum burn time for the M1066 projectile?",
+        imgSrc : "img/css.png",
+        choiceA : "A)120 seconds",
+        choiceB : "B)90 seconds",
+        choiceC : "C)180 seconds",
+        choiceD : "D)150 seconds",
+        correct : "A"
+      },{
+        question:  "What is the purpose of the surge tank",
+        imgSrc : "img/css.png",
+        choiceA : "A)Regulates pressure in the engine",
+        choiceB : "B)Collects excess fuel from the engine",
+        choiceC : "C)Cools the coolant flowing through it",
+        choiceD : "D)Filters impurities from the coolant",
+        correct : "C"
+      },{
+        question:  "When the rammer is in the stowed position, the pointer will be in the _____ band.",
+        imgSrc : "img/css.png",
+        choiceA : "A)Red",
+        choiceB : "B)Green",
+        choiceC : "C)Blue",
+        choiceD : "D)Black",
+        correct : "D"
+      },{
+        question:  "The M109A6 howitzer should not exceed how many mils of cant when boresighting of firing?",
+        imgSrc : "img/css.png",
+        choiceA : "A)90 mils",
+        choiceB : "B)60 mils",
+        choiceC : "C)120 mils",
+        choiceD : "D)30 mils",
+        correct : "A"
+      },{
+        question:  "How much does a M825 projectile weigh?",
+        imgSrc : "img/css.png",
+        choiceA : "A)100 lbs",
+        choiceB : "B)102 lbs",
+        choiceC : "C)105 lbs",
+        choiceD : "D)110 lbs",
+        correct : "B"
+      },{
+        question:  "The maximum rate of fire for the 109A6 is _____ rounds per minute.",
+        imgSrc : "img/css.png",
+        choiceA : "A)3",
+        choiceB : "B)4",
+        choiceC : "C)5",
         choiceD : "D)6",
         correct : "B"
-    },{
-        question : "what is the solution for -x+72=-9x?",
-        imgSrc : "img/css.png",
-        choiceA : "A)-9",
-        choiceB : "B)7.2",
-        choiceC : "C)-7.2",
-        choiceD : "D)9",
-        correct : "A"
-      },{
-        question : "simplify 5(x-12)+15(3+x)",
-        imgSrc : "img/css.png",
-        choiceA : "A)6x+15",
-        choiceB : "B)20x-105",
-        choiceC : "C)20x-15",
-        choiceD : "D)6x-12",
-        correct : "C"
-      },{
-        question : "Which of the following is equivalent to 5(z+3)-4(1+p)",
-        imgSrc : "img/css.png",
-        choiceA : "A)5z-4p",
-        choiceB : "B)5z+19+4",
-        choiceC : "C)11zp",
-        choiceD : "D)5z+11-4p",
-        correct : "D"
-      },{
-        question:  "solve 1.5x-2<=10",
-        imgSrc : "img/css.png",
-        choiceA : "A)x<=8",
-        choiceB : "B)x>=8",
-        choiceC : "C)x<=5⅓",
-        choiceD : "D) x>=5.3",
-        correct : "A"
-      },{
-        question:  "what are the solutions to 3(x+5)<=3x+20",
-        imgSrc : "img/css.png",
-        choiceA : "A)x<=0",
-        choiceB : "B)x>=15",
-        choiceC : "C)no solution",
-        choiceD : "D)all real numbers",
-        correct : "D"
-      },{
-        question:  "which of the following is the most precise?",
-        imgSrc : "img/css.png",
-        choiceA : "A)4.458in",
-        choiceB : "B)4.46in",
-        choiceC : "C)4.5in",
-        choiceD : "D)5in",
-        correct : "A"
-      },{
-        question:  "?which of the following expressions has two terms and a coefficient of 6?",
-        imgSrc : "img/css.png",
-        choiceA : "A)6y^2-2x+10",
-        choiceB : "B)6y^2-18",
-        choiceC : "C)-y^2+6",
-        choiceD : "D)6-12y",
-        correct : "B"
-      },{
-        question:  "What is the product of 75.0 feet and 2.05 feet written with the correct number of significant digets?",
-        imgSrc : "img/css.png",
-        choiceA : "A)153.75 ft^2",
-        choiceB : "B)153.8 ft^2",
-        choiceC : "C)154 ft^2",
-        choiceD : "D)150 ft^2",
-        correct : "C"
     }
 ];
 
